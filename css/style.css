@@ -1,0 +1,62 @@
+/* Reset default browser margins and set font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ----- HEADER ----- */
+header {
+    display: flex; /* Use flexbox to arrange logo, nav, and social icons */
+    justify-content: space-between; /* Push content to the left and right edges */
+    align-items: center; /* Vertically align items */
+    padding: 10px 20px;
+    background-color: #333; /* Dark background color */
+    color: white;
+}
+
+/* Logo text */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex; /* Arrange links in a row */
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px; /* Space between links */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Social media icons */
+.social {
+    display: flex; /* Place icons side by side */
+    gap: 10px; /* Space between icons */
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+}
