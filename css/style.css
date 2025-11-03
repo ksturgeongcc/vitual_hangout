@@ -288,63 +288,44 @@ footer {
 
 /* container that holds the items */
 .shop-items>.shop-list {
-
     display: flex;
-
     width: 100%;
-
     justify-content: space-around;
 }
 
 /* shop cards */
 .shop-list div {
-
-    border: 4px solid lightblue;
-
+    border: 4px solid lightblue; 
     padding: 20px;
-
     border-radius: 10px;
-
     text-align: center;
-
-    /* flex-direction: column; */
-
-    /* justify-content: center; */
 }
-.shop-list div p{
 
-color: blue;
+.shop-list div p {
+    color: blue;
 }
-.shop-list div button{
-    
-background: aqua;
-    
-padding:  5px 20px;
-    
-border: 1px solid orange;
-    
-border-radius: 5px;
+
+.shop-list div button {
+    background: aqua;
+    padding: 5px 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
 }
+
 /* circle */
-.circle-wrapper{
-    
+.circle-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-.circle{
-
-border: 2px solid black;
-    
-margin-top: 150px;
-    
-width: 150px;
-    
-height: 100px;
-    
-display: flex;
-    
-justify-content: center;
-    
-align-items: center;
-    
-border-radius: 50%;
+.circle {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
